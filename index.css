@@ -301,7 +301,7 @@ h2 {
   }
   &:active {
     cursor: pointer;
-    @include reverse-neu;
+    /* @include reverse-neu; */
   }
 }
 .button {
@@ -324,10 +324,10 @@ h2 {
     border-color: transparent transparent transparent #404040;
   }
 }
-@mixin reverse-neu {
+/* @mixin reverse-neu {
   box-shadow: inset -5px -5px 15px 0px #ffffff9e,
     inset 5px 5px 15px 0px #a3b1c6a8;
-}
+} */
 .music-title {
   text-align: center;
   padding-bottom: 0;
@@ -355,7 +355,7 @@ h2 {
   }
   &:active {
     cursor: pointer;
-    @include reverse-neu;
+    /* @include reverse-neu; */
   }
 }
 #play:hover {
